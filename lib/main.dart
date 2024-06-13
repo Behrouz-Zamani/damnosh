@@ -65,7 +65,6 @@ class MyApp extends StatelessWidget {
         body: Stack(
           children: [
                       homescreen(size: size),
-          
             Positioned(
               bottom: 8,
               right: 0,
@@ -111,9 +110,7 @@ class MyApp extends StatelessWidget {
             ),
 
           ],
-         
         ),
-         
       ),
     );
   }
